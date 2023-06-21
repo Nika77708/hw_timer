@@ -1,0 +1,18 @@
+.container {
+    width: 200px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.description {
+    width: 200px;
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
