@@ -12,7 +12,7 @@ export const Appy = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("May 30, 2025 00:00:00").getTime();
+    const countdownDate = new Date("September 30, 2023 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
